@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion parent.ext.compileSdkVersion
+    buildToolsVersion parent.ext.buildToolsVersion
+
+
+    defaultConfig {
+        applicationId "com.jesusm.kfingerprintmanager.javasample"
+        minSdkVersion parent.ext.minSdkVersion
+        targetSdkVersion parent.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':kfingerprintmanager')
+    compile ('com.mapbox.mapboxsdk:mapbox-android-sdk:5.1.0@aar'){
+        transitive=true
+    }
+    compile('com.mikepenz:materialdrawer:5.9.0@aar') {
+        transitive = true
+    }
+    compile 'com.hkm:hkmprocessbuttons:1.2.4'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.rom4ek:arcnavigationview:1.0.3'
+    compile 'com.google.android.gms:play-services-maps:10.2.0'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.android.support:palette-v7:25.3.1'
+    compile 'com.google.firebase:firebase-database:10.0.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.mikhaellopez:circularfillableloaders:1.2.0'
+    compile 'com.mikepenz:crossfader:1.5.0@aar'
+    compile('com.mikepenz:crossfadedrawerlayout:1.0.0@aar')
+    compile 'com.mikepenz:google-material-typeface:2.2.0.1@aar'
+    compile 'com.mikepenz:fontawesome-typeface:4.6.0.3@aar'
+    compile 'com.mikepenz:octicons-typeface:3.0.0.1@aar'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+    compile 'com.mikepenz:fastadapter-commons:2.6.0@aar'
+    compile 'io.github.yavski:fab-speed-dial:1.0.6'
+    compile('com.mikepenz:aboutlibraries:5.9.5@aar') {
+        transitive = true
+        exclude module: "fastadapter"
+    }
+    compile 'com.wajahatkarim3.LongImageCamera:LongImageCamera:1.0.2'
+    compile 'com.mikepenz:itemanimators:0.5.0@aar'
+}

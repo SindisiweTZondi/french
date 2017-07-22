@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/welcome/.android/build-cache/6a18b583ac7163f91c267b5d1d1926f5228c2c60/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/transforms/dex/debug/folders/1000/10/classes_526f27ec9c8a521e1b8c67ce70213ea58d568760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/welcome/.android/build-cache/6d7964aff10c586964d243ccbe93d89977b671d0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="91ac13ba7ff83bcfbb6087fd67db3478f70d46b4">
+        <dex dex="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e38c9007b7cc666784c5013fab1806ef7678e03c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bb3c8e99801a7cc56a2f44d9368e9d6d161040af">
+        <dex dex="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_62aa26148c6ee2e1775e0567878f4f67a6c7bc73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/welcome/.android/build-cache/6a18b583ac7163f91c267b5d1d1926f5228c2c60/output/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_ef4e426d063745eee3692105fd6a6ee3f443c545/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/welcome/Downloads/FingerprintManager-master/javasample/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8476f8c40a3082f8a9ba60dd104014d11ff3951c/classes.dex" />
+    </item>
+
+</items>
